@@ -1,0 +1,22 @@
+[package]
+name = "cargo-policy-fuzz"
+version = "0.0.0"
+publish = false
+edition = "2024"
+
+[package.metadata]
+cargo-fuzz = true
+
+[dependencies]
+cargo-policy = { path = ".." }
+libfuzzer-sys = "0.4"
+toml = "0.8"
+
+[[bin]]
+name = "policy"
+path = "fuzz_targets/policy.rs"
+test = false
+doc = false
+bench = false
+
+[workspace]
