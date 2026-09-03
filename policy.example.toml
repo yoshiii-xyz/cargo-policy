@@ -1,0 +1,5 @@
+allow_registry = ["crates.io", "corp"]
+allow_git = ["github.com/org/*"]
+allow_path = ["vendor/*"]
+require_checksum = true
+forbid_unpinned_git = true
