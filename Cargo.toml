@@ -5,7 +5,7 @@ edition = "2024"
 rust-version = "1.85"
 description = "Compile explicit Cargo dependency-source policies into checks"
 license = "MIT"
-repository = "https://github.com/joshiii-xyz/cargo-policy"
+repository = "https://github.com/yoshiii-xyz/cargo-policy"
 keywords = ["cargo", "dependencies", "policy", "supply-chain"]
 categories = ["command-line-utilities", "development-tools"]
 

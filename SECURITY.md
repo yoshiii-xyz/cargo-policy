@@ -8,7 +8,7 @@ the code in this repository and the published `cargo-policy` package.
 ## Reporting a vulnerability
 
 Do not open a public issue for an unpatched vulnerability. Use the private
-GitHub security advisory flow for `joshiii-xyz/cargo-policy` when available.
+GitHub security advisory flow for `yoshiii-xyz/cargo-policy` when available.
 If that flow is unavailable, contact the repository owner through the GitHub
 profile and include a minimal reproduction, affected version, and impact.
 Do not include secrets or private project files in a report.
